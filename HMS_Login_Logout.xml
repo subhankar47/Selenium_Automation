@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Selenium_Automation001">
+        <classes>
+            <class name="com.Selenium_TestNg.HMSLoginLogout">
+                <methods>
+                    <parameter name="username" value="admin"></parameter>
+                    <parameter name="password" value="admin"></parameter>
+                    <include name="hmsLoginLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Selenium_Automation002">
+        <classes>
+            <class name="com.Selenium_TestNg.HMSLoginLogout">
+                <methods>
+                    <parameter name="username" value="mahesh"></parameter>
+                    <parameter name="password" value="mahesh"></parameter>
+                    <include name="hmsLoginLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

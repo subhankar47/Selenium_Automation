@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Chrome Results">
+        <parameter name="Browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.Selenium_TestNg.AjaxControlHandling">
+                <methods>
+                    <include name="Ajax"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Firefox Results">
+        <parameter name="Browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.Selenium_TestNg.AjaxControlHandling">
+                <methods>
+                    <include name="Ajax"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

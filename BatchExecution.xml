@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/Intellij/Selenium_Automation">
+        <classes>
+            <class name="com.Selenium_TestNg.AjaxControlHandling">
+                <methods>
+                    <include name="Ajax"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.DataProvider_Example">
+                <methods>
+                    <include name="HmsLoginLogout"/>
+                    <include name="Credential"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.FarameHandle">
+                <methods>
+                    <include name="TooptipThemeRoller"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.GoogleLanguages_TestNG">
+                <methods>
+                    <include name="googleLanguages"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.Handle_Alerts">
+                <methods>
+                    <include name="verifyAlerts"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.InformationCommands">
+                <methods>
+                    <include name="readValue"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.InvocationCount">
+                <methods>
+                    <include name="Test001"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.MouseHover">
+                <methods>
+                    <include name="Appliances"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.PrintLinks">
+                <methods>
+                    <include name="PrintLink"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.SampleTestNg">
+                <methods>
+                    <include name="sunny"/>
+                    <include name="bunny"/>
+                    <include name="Vinny"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.Spicejet_WebTableHandling">
+                <methods>
+                    <include name="Depature"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.ValidateDropDown">
+                <methods>
+                    <include name="Dropdown"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.ValidationCommands">
+                <methods>
+                    <include name="VC"/>
+                </methods>
+            </class>
+            <class name="com.Selenium_TestNg.WebTableHandling">
+                <methods>
+                    <include name="Appliances"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
